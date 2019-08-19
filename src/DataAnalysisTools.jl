@@ -1,6 +1,6 @@
 module DataAnalysisTools
 
-using LsqFit, Plots
+using LsqFit, Plots, Measurements
 import LsqFit: curve_fit
 export modify,crop,mask,plotData!,modelWeights,analyze
 
